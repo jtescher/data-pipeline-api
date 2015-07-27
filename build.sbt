@@ -10,6 +10,7 @@ libraryDependencies ++= Seq(
   jdbc,
   cache,
   ws,
+  "com.websudos"  %% "phantom-dsl" % "1.10.1",
   specs2 % Test
 )
 
